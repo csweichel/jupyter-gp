@@ -10,6 +10,7 @@ pandas = "*"
 jupyterlab = "*"
 matplotlib = "*"
 seaborn = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.7"
