@@ -1,6 +1,6 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: pipenv install
+  - init: pipenv install -q
     command: |
       echo "c.ServerApp.allow_origin = '*'" > /home/gitpod/.jupyter/jupyter_lab_config.py
       pipenv shell jupyter lab
